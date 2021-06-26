@@ -1,0 +1,131 @@
+.intro-section{
+    background-image: url(../images/background-intro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro__wrapper{
+    padding-top: 128px;
+    padding-bottom: 158px;
+}
+
+.info__discription{
+    font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 10px;
+text-transform: uppercase;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+.info__header{
+    max-width: 396px;
+    font-weight: bold;
+font-size: 56px;
+line-height: 58px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.info__paragraph{
+    max-width: 349px;
+    margin-bottom: 40px;
+    font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.75;
+}
+
+.info__link{
+    display: block;
+     width: 160px;
+     height: 48px;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #FFFFFF;
+    background-color: #D87D4A;
+}
+
+.info__link:hover{
+    background: #FBAF85;
+}
+
+@media only screen and (max-width: 769px) {
+    .intro-section{
+        background-color: black;
+        background-image: url(../images/tablet-intro-bcg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .info__header{
+        text-align: center;
+        margin: 40px auto;
+    }
+
+    .info__paragraph{
+        max-width: 377px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .info__discription{
+        margin: 0 auto;
+        max-width: 200px;
+        width: 100%;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        
+    }
+    .info__link{
+
+        margin: 0 auto;
+    }
+    }
+
+    @media only screen and (max-width: 469px) {
+        .info__discription{
+            width: 199px;
+            // width: 100%;
+            margin-bottom: 16px;
+        }
+
+        .info__header{
+            margin-bottom: 24px;
+            font-size: 36px;
+        line-height: 40px;
+        }
+
+        .info__paragraph{
+            margin-bottom: 28px;
+           max-width: 328px;
+        font-size: 15px;
+        line-height: 25px;
+        }
+
+        .info__link{
+            margin-bottom: 112px;
+        }
+
+    }
+
+
+
+
+

@@ -1,0 +1,65 @@
+.products__list{
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.products__item{
+    position: relative;
+    // padding-top: 116px;
+    max-width: 320px;
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    background: #F1F1F1;
+
+}
+
+
+
+.list__heading{
+    font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 1.28571px;
+text-transform: uppercase;
+color: #000000;
+}
+
+.HEADPHONES::before{
+    content: url(../images/naushnik.png);
+  
+    
+}
+
+.SPEAKERS::before{
+    content: url(../images/kalonka.png);
+}
+
+.EARPHONE::before{
+    content: url(../images/earphone.png);
+}
+
+.list__link{
+    text-decoration: none;
+    font-weight: bold;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+.list__link:hover{
+    color: #D87D4A;
+    opacity: 1;
+}
+
+.list__icon{
+    margin-left: 13px;
+    
+}
